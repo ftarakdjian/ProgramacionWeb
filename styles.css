@@ -1,6 +1,22 @@
-#Titulo {color: blue; font-family: verdana;font-size: 300%;}
+  
+  header {
+    background-color: white;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .HeaderTitulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-#Sub-titulo{color: brown; font-family: verdana}
+  #Titulo{
+    margin: 0;
+    font-size: 65px;
+    font-weight: bold;
+    color: black;
+  }
+  
 
-body {background-color: powderblue;}
+  
 
