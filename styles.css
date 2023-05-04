@@ -2,20 +2,120 @@
   header {
     background-color: white;
     font-family: 'Roboto Mono', monospace;
+    
   }
   
   .HeaderTitulo {
+    font-size: 64px;
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
   }
 
-  #Titulo{
-    margin: 0;
-    font-size: 65px;
-    font-weight: bold;
-    color: black;
+  .HeaderBotones {
+    display: flex; /* Establecer los botones como elementos flexibles */
+    justify-content: center; /* Centrar horizontalmente los botones */
+    align-items: center; /* Centrar verticalmente los botones */
   }
+  
+  .HeaderBotones input[type="button"] {
+    background-color: #0077b5; /* Establecer el color de fondo del botón */
+    border: none; /* Eliminar el borde del botón */
+    color: white; /* Establecer el color del texto del botón */
+    font-size: 40px; /* Establecer el tamaño de fuente del botón */
+    padding: 10px 20px; /* Establecer el relleno del botón */
+    margin: 0 10px; /* Establecer el margen horizontal del botón */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  }
+  
+  .HeaderBotones input[type="button"]:hover {
+    background-color: #004471; /* Cambiar el color de fondo del botón al pasar sobre él */
+  }
+  
+
+
+  #Titulo{
+    text-align: center;
+    font-family: monospace; 
+    font-size: 64px;
+  }
+
+  .Academica {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 0.5fr 1.5fr 1fr 0.5fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "FaTitulo FaTitulo"
+      "EstudiosPrimarios EstudiosPrimarios"
+      "FotoFlorida FotoBritish"
+      "TextoFlorida TextoBritish"
+      "EstudiosSecundarios EstudiosSecundarios"
+      "FotoItba FotoItba"
+      "TextoItba TextoItba";
+  }
+  
+  .FaTitulo { grid-area: FaTitulo; 
+    background-color: #f9f9f9;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;}
+  
+  .EstudiosPrimarios { grid-area: EstudiosPrimarios; }
+  
+  .EstudiosSecundarios { grid-area: EstudiosSecundarios; }
+  
+  .FotoFlorida { grid-area: FotoFlorida;   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+  
+  .FotoBritish { grid-area: FotoBritish; }
+  
+  .TextoFlorida { grid-area: TextoFlorida; }
+  
+  .TextoBritish { grid-area: TextoBritish; }
+  
+  .FotoItba { grid-area: FotoItba; }
+  
+  .TextoItba { grid-area: TextoItba; }
+
+
+  .Laboral {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 0.5fr 1.5fr 1fr 0.5fr 1.5fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Mi-carrera-profesional Mi-carrera-profesional"
+      "Mi-primera-Experiencia Mi-primera-Experiencia"
+      "FotoSoul FotoSoul"
+      "TextoSoul TextoSoul"
+      "Mi-segunda-experiencia Mi-segunda-experiencia"
+      "FotoCodere FotoCodere"
+      "TextoCodere TextoCodere";
+  }
+  
+  .Mi-carrera-profesional { grid-area: Mi-carrera-profesional; }
+  
+  .Mi-primera-Experiencia { grid-area: Mi-primera-Experiencia; }
+  
+  .FotoSoul { grid-area: FotoSoul; }
+  
+  .TextoSoul { grid-area: TextoSoul; }
+  
+  .Mi-segunda-experiencia { grid-area: Mi-segunda-experiencia; }
+  
+  .TextoCodere { grid-area: TextoCodere; }
+  
+  .FotoCodere { grid-area: FotoCodere; }
+  
+  
   
 
   
