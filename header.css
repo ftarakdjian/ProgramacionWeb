@@ -1,0 +1,67 @@
+  
+  header {
+    background-color: white;
+    font-family: 'Roboto Mono', monospace;
+    
+  }
+  
+  .contenedor-blanco {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .HeaderTitulo{
+    font-size: 64px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+  .HeaderBotones {
+    display: flex; /* Establecer los botones como elementos flexibles */
+    justify-content: center; /* Centrar horizontalmente los botones */
+    align-items: center; /* Centrar verticalmente los botones */
+  }
+  
+  .HeaderBotones input[type="button"] {
+    background-color: #0077b5; /* Establecer el color de fondo del botón */
+    border: none; /* Eliminar el borde del botón */
+    color: white; /* Establecer el color del texto del botón */
+    font-size: 40px; /* Establecer el tamaño de fuente del botón */
+    padding: 10px 20px; /* Establecer el relleno del botón */
+    margin: 0 10px; /* Establecer el margen horizontal del botón */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  }
+  
+  .HeaderBotones input[type="button"]:hover {
+    background-color: #004471; /* Cambiar el color de fondo del botón al pasar sobre él */
+  }
+  
+
+
+  #Titulo{
+    text-align: center;
+    font-family: monospace; 
+    font-size: 64px;
+  }
+
+  #Sub-titulo{
+    font-size: 32px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+
+
+  
+  
+  
+
+  
+
