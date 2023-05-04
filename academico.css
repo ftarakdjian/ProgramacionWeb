@@ -42,9 +42,7 @@
   }
   
   .FotoFlorida { grid-area: FotoFlorida;
-    max-width: 90%; 
-  max-height: 90%;
-  margin: 5%;
+   
   }
   
   .FotoBritish { grid-area: FotoBritish; 
@@ -63,4 +61,4 @@
     margin: 5%;
   }
   
-  .TextoItba { grid-area: TextoItba; }
+  .TextoItba { grid-area: TextoItba; } 

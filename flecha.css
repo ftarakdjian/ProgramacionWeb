@@ -1,19 +1,5 @@
-h2 {
-    position: relative; /* establecemos posición relativa para que los pseudo-elementos se posicionen relativamente a este elemento */
-  }
-  
-  h2::after {
-    content: "";
-    display: block;
-    width: 20px;
-    height: 20px;
-    background-image: url('ruta/a/tu/flecha.png');
-    background-size: contain;
-    position: absolute;
-    top: 50%;
-    right: -25px; /* ajusta esto para controlar la distancia entre la flecha y el título */
-    transform: translateY(-50%);
-  }
+
+
   
 
   
