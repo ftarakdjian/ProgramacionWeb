@@ -1,6 +1,6 @@
 .Laboral {  display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1.5fr 0.5fr 1.5fr 1fr 0.5fr 1.5fr 1fr;
+    grid-template-rows: 1.5fr 0.5fr 1.5fr  0.5fr 1.5fr ;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -8,10 +8,8 @@
       "Mi-carrera-profesional Mi-carrera-profesional"
       "Mi-primera-Experiencia Mi-primera-Experiencia"
       "FotoSoul FotoSoul"
-      "TextoSoul TextoSoul"
       "Mi-segunda-experiencia Mi-segunda-experiencia"
-      "FotoCodere FotoCodere"
-      "TextoCodere TextoCodere";
+      "FotoCodere FotoCodere";
   }
   
   .Mi-carrera-profesional { grid-area: Mi-carrera-profesional;
@@ -34,21 +32,6 @@
     padding: 30px;
   }
   
-  .FotoSoul { grid-area: FotoSoul; 
-  }
-  
-  .TextoSoul { grid-area: TextoSoul; }
-  
-  .Mi-segunda-experiencia { grid-area: Mi-segunda-experiencia;
-    background-color: #f9f9f9;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    padding: 30px;
-  }
-  
-  .TextoCodere { grid-area: TextoCodere; }
+  .FotoSoul { grid-area: FotoSoul; }
   
   .FotoCodere { grid-area: FotoCodere; }
