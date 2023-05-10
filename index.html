@@ -9,40 +9,39 @@
     <link rel="stylesheet" href="academico.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="flecha.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="extra.css">
+
+      <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+
     <title>Mi perfil</title>
 </head>
 <body>
     <header>
-        <div class="contenedor-blanco"></div>
-        <hr>
-        <div class="HeaderTitulo">Mi pagina web</div>
-        <div class="HeaderMenu">
-            <hr>
-            <div class="HeaderBotones">
-                <a href="https://www.linkedin.com/in/facundotarakdjian/"><input type="button" value="Mi LinkedIn"></a>
-                <a href="https://www.linkedin.com/in/facundotarakdjian/"><input type="button" value="Mi Github"></a>
-                <a href="https://www.linkedin.com/in/facundotarakdjian/"><input type="button" value="Mi instagram"></a>
-                <a href="https://www.linkedin.com/in/facundotarakdjian/"><input type="button" value="Mi carrera"></a>
-                <a href="https://www.linkedin.com/in/facundotarakdjian/"><input type="button" value="Mi ultimo trabajo"></a>
+        <section id="hero">
+            <div class="hero-container">
+                <h1 style="font-size: 8em">Facundo Tarakdjian</h1>
+                <h2 style="font-size: 4em">MI PAGINA WEB</h2>
+                <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
+                <div class="HeaderBotones">
+                    <a href="https://www.linkedin.com/in/facundotarakdjian/"><input type="button" value="Mi LinkedIn"></a>
+                    <a href="https://www.linkedin.com/in/facundotarakdjian/"><input type="button" value="Mi Github"></a>
+                    <a href="https://www.linkedin.com/in/facundotarakdjian/"><input type="button" value="Mi instagram"></a>
+                    <a href="https://www.linkedin.com/in/facundotarakdjian/"><input type="button" value="Mi carrera"></a>
+                    <a href="https://www.linkedin.com/in/facundotarakdjian/"><input type="button" value="Mi ultimo trabajo"></a>
+                </div>
             </div>
         </div>
+        </section><!-- End Hero -->
     </header>
     
     <main>
-        <div class="MainTitulo">
-            <h1 id="Titulo">Facundo Tarakdjian</h1>
-            <h2 id="Sub-titulo">En esta pagina mostrare un breve resumen sobre mi formacion academica, mi carrera laboral, mis hobbies y las experiencias más importantes que he tenido hasta el día de hoy</h2>
-        </div>
-
-        <div class="flecha">
-            <img id="fotoflorida" src="./images/flecha.png" alt="le erraste">
-         </div>
-
         <div class="Academica">
-            <div class="FaTitulo">Mi trayectoria academica</div>
-            <div class="EstudiosPrimarios">Mis estudios secundarios</div>
-            <div class="EstudiosSecundarios">Mis estudios Universitarios</div>
-            <div class="FotoFlorida"><img src="./images/florida.jpg" alt="avisame que le erre"></div>
+            <div class="FaTitulo texto"><hr>Trayectoria Académica<hr></div>
+            <div class="EstudiosPrimarios texto">Mis estudios secundarios</div>
+            <div class="EstudiosSecundarios texto">Mis estudios Universitarios</div>
+            <div class="FotoFlorida"><img src="./images/florida.jpg alt="avisame que le erre"></div>
             <div class="FotoBritish"><img src="./images/british.png" alt="avisame que le erre"></div>
             <div class="TextoFlorida">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere corporis asperiores doloribus numquam recusandae, eligendi repudiandae sequi similique repellat architecto ipsum nobis nemo saepe nesciunt? Facilis in magnam est quibusdam!</div>
             <div class="TextoBritish">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repudiandae autem commodi amet totam, consectetur veniam facere iste! Beatae minima voluptatem inventore vero modi ut reiciendis, rem illum amet et.</div>
@@ -50,12 +49,14 @@
             <div class="TextoItba">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis nam voluptatem delectus possimus ipsum mollitia atque officiis, ea unde neque? Obcaecati voluptatibus ea quidem voluptatem inventore corporis dolore sequi iure?</div>
           </div>
 
-          <div class="Laboral">
-            <div class="Mi-carrera-profesional">Mi carrera Mi-carrera-profesional</div>
-            <div class="Mi-primera-Experiencia">Mi primera experiencia</div>
-            <div class="FotoSoul"><img src="./images/soul.png" alt="avisame que le erre"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta sunt reiciendis, necessitatibus nisi, id quibusdam illo dignissimos veritatis dolorem repellat ea aperiam cum doloremque quos sequi culpa vitae enim consectetur?</p></div>
-            <div class="Mi-segunda-experiencia">Mi segunda experiencia</div>
-            <div class="FotoCodere"><img src="./images/codere.jfif" alt="avisame que le erre"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae accusantium minima quibusdam commodi quod hic doloremque! Dignissimos rem numquam nisi tempora accusamus soluta natus sint? Quaerat quisquam quod eaque porro!</p></div>
+          <div class="laboral">
+            <div class="carrera-profesional"><hr>Carrera Profesional<hr></div>
+            <div class="primera-experiencia">Mi primera experiencia</div>
+            <div class="foto-soul"><img src="./images/soul.png alt="avisame que le erre"></div>
+            <div class="texto-soul">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, libero assumenda! Aliquid commodi possimus cumque ut, dicta distinctio omnis repudiandae quidem eligendi sunt vero, optio labore, illo quis? Corrupti, vel.</div>
+            <div class="segunda-experiencia">Mi segunda experiencia</div>
+            <div class="foto-codere"><img src="./images/codere.jfif" alt="avisame que le erre"></div>
+            <div class="texto-codere">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, libero assumenda! Aliquid commodi possimus cumque ut, dicta distinctio omnis repudiandae quidem eligendi sunt vero, optio labore, illo quis? Corrupti, vel.</div>
           </div>
 
     </main>
@@ -75,4 +76,3 @@
 
 </body>
 </html>
-

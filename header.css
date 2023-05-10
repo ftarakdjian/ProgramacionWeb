@@ -24,6 +24,8 @@
     display: flex; /* Establecer los botones como elementos flexibles */
     justify-content: center; /* Centrar horizontalmente los botones */
     align-items: center; /* Centrar verticalmente los botones */
+    height: 200px;
+    width: 70%;
   }
   
   .HeaderBotones input[type="button"] {

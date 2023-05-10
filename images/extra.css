@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.texto {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #444444;
+  }
+  
+.titulo{
+    color: #111;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    padding: 0.5em 0 0.5em 0;
+    position: relative;
+    text-align: center;
+  }
+
+  
