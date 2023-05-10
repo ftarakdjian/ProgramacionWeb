@@ -12,15 +12,38 @@
     "foto-codere texto-codere";
 }
 
-.carrera-profesional { grid-area: carrera-profesional; }
+.carrera-profesional { grid-area: carrera-profesional; 
+  background-color: white;
+  font-size: 8em;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  padding: 100px;
+}
 
-.primera-experiencia { grid-area: primera-experiencia; }
+.primera-experiencia { grid-area: primera-experiencia; 
+  background-color: white;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  padding: 30px;
+}
 
 .foto-soul { grid-area: foto-soul; }
 
 .texto-soul { grid-area: texto-soul; }
 
-.segunda-experiencia { grid-area: segunda-experiencia; }
+.segunda-experiencia { grid-area: segunda-experiencia;
+  background-color: white;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  padding: 30px;
+}
 
 .foto-codere { grid-area: foto-codere; }
 
