@@ -36,13 +36,7 @@ header h1{
   font-size:30px;
 }
 
-/* Estilos del pie de página */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
+
 
 
 .container {  display: grid;
@@ -62,27 +56,46 @@ footer {
 
 .records { grid-area: records; }
 
-.Torneos { grid-area: Torneos; }
+.Torneos { grid-area: Torneos;
+  display: grid; /* Activa el contexto de CSS Grid */
+  justify-items: center; /* Centra los elementos horizontalmente */ }
 
-.Grandslam { grid-area: Grandslam; }
+.Grandslam { grid-area: Grandslam; 
+  display: grid; /* Activa el contexto de CSS Grid */
+  justify-items: center; /* Centra los elementos horizontalmente */}
 
-.numero1 { grid-area: numero1; }
+.numero1 { grid-area: numero1; 
+  display: grid; /* Activa el contexto de CSS Grid */
+  justify-items: center; /* Centra los elementos horizontalmente */}
 
 .Estilo-de-juego { grid-area: Estilo-de-juego; }
 
-.Derecha { grid-area: Derecha; }
+.Derecha { grid-area: Derecha; 
+  display: grid; /* Activa el contexto de CSS Grid */
+  justify-items: center; /* Centra los elementos horizontalmente */
+}
 
-.Saque { grid-area: Saque; }
+.Saque { grid-area: Saque;
+  display: grid; /* Activa el contexto de CSS Grid */
+  justify-items: center; /* Centra los elementos horizontalmente */ }
 
-.Reves { grid-area: Reves; }
+.Reves { grid-area: Reves; 
+  display: grid; /* Activa el contexto de CSS Grid */
+  justify-items: center; /* Centra los elementos horizontalmente */}
 
 .Influencia { grid-area: Influencia; }
 
-.mentalidad { grid-area: mentalidad; }
+.mentalidad { grid-area: mentalidad;
+  display: grid; /* Activa el contexto de CSS Grid */
+  justify-items: center; /* Centra los elementos horizontalmente */ }
 
-.Ayudas { grid-area: Ayudas; }
+.Ayudas { grid-area: Ayudas; 
+  display: grid; /* Activa el contexto de CSS Grid */
+  justify-items: center; /* Centra los elementos horizontalmente */}
 
-.longevidad { grid-area: longevidad; }
+.longevidad { grid-area: longevidad; 
+  display: grid; /* Activa el contexto de CSS Grid */
+  justify-items: center; /* Centra los elementos horizontalmente */}
 
 
 .subtitulosmain{ 
@@ -102,3 +115,18 @@ footer {
 size: 40vw;
 align-items: center;
 }
+
+/* Estilos del pie de página */
+footer {
+ background-color: rgb(200, 200, 200);
+  height: 30vw;
+  padding: 20px;
+  text-align: center;
+}
+
+.botonesfooter{
+  height: 30px;
+ }
+ .textobotonesfooter{
+  font-size: 30px;
+ }
