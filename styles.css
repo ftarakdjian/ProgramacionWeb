@@ -104,11 +104,15 @@ header h1{
   font-size: 30px;
 }
 
+.textomain{ 
+  color: darkviolet; 
+  text-align: center;
+  font-size: 15px;
+}
 .titulosmain{ 
   color: darkviolet; 
   text-align: center;
   font-size: 45px;
-  size: 40px;
 }
 
 .fotomain{ 
