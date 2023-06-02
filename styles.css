@@ -171,4 +171,30 @@ footer {
       "Influencia Influencia Influencia"
       "mentalidad Ayudas longevidad";
   }
+
+  .records { 
+    grid-area: records;
+  }
+  
+  .Torneos { grid-area: Torneos;}
+  
+  .Grandslam { grid-area: Grandslam;}
+  
+  .numero1 { grid-area: numero1;}
+  
+  .Estilo-de-juego { grid-area: Estilo-de-juego; }
+  
+  .Derecha { grid-area: Derecha;}
+  
+  .Saque { grid-area: Saque; }
+  
+  .Reves { grid-area: Reves;}
+  
+  .Influencia { grid-area: Influencia; }
+  
+  .mentalidad { grid-area: mentalidad;}
+  
+  .Ayudas { grid-area: Ayudas;}
+  
+  .longevidad { grid-area: longevidad;}
 }
