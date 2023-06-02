@@ -16,20 +16,22 @@ header {
   color: #fff;
   padding: 20px;
   height: 90vh;
-  text-align: center;
 }
 
-
+.titulo{
+align-items: end;
+}
 
 header h1{
+  font-family: 'Josefin Sans', sans-serif;
   color: #fff;
   text-align: center;
   font-size: 70px;
   margin: 10px;
-  font-family: 'Courier New', Courier, monospace ;
 }
 
  header h2 {
+  font-family: 'Josefin Sans', sans-serif;
   color: #fff;
   text-align: center;
   font-size:30px;
@@ -124,15 +126,23 @@ align-items: center;
 
 /* Estilos del pie de página */
 footer {
- background-color: rgb(200, 200, 200);
-  height: 30vw;
-  padding: 20px;
-  text-align: center;
-}
+  background-color: lightsteelblue;
+   height: 20vw;
+   padding: 20px;
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+ }
 
 .botonesfooter{
   height: 30px;
- }
+  color: #fff;
+}
+ 
  .textobotonesfooter{
   font-size: 30px;
+ }
+
+ #tituloFooter{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 70px;
  }
