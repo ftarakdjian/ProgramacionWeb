@@ -11,7 +11,7 @@ body {
 /* Estilos del encabezado */
 header {
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1zJ1nOdqTTEi03On6Mt5P1ox_ZXyOHcIdZA&usqp=CAU');
-  background-color: rgba(0, 0, 0, 0.7);
+
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
@@ -41,7 +41,7 @@ header h1{
 
 .container {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr;
+  grid-template-rows: 0.2fr 1fr 0.2fr 1fr 0.2fr 1fr;
   grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -54,7 +54,9 @@ header h1{
     "mentalidad Ayudas longevidad";
 }
 
-.records { grid-area: records; }
+.records { 
+  grid-area: records;
+}
 
 .Torneos { grid-area: Torneos;
   display: grid; /* Activa el contexto de CSS Grid */
@@ -115,8 +117,9 @@ header h1{
   font-size: 45px;
 }
 
-.fotomain{ 
-size: 40vw;
+.fotosmain{ 
+height: 220px;
+
 align-items: center;
 }
 
