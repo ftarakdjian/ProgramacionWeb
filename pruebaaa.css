@@ -1,0 +1,75 @@
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #titulofooter {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .botonesfooter {
+    display: block;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .textobotonesfooter {
+    border: none;
+    color: #fff;
+    background-color: #333;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .contacto {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .datos {
+    margin-top: 10px;
+  }
+  
+  .fa-envelope {
+    margin-right: 5px;
+  }
+  
+
+  /* Estilos del pie de página */
+footer {
+    background-color: lightsteelblue;
+     height: 20vw;
+     padding: 20px;
+     text-align: center;
+     font-family: 'Josefin Sans', sans-serif;
+   }
+  
+  .botonesfooter{
+    height: 30px;
+    color: #fff;
+  }
+   
+   .textobotonesfooter{
+    font-size: 30px;
+   }
+  
+   #tituloFooter{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 70px;
+   }
+  
