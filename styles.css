@@ -10,33 +10,29 @@ body {
 /* Estilos del encabezado */
 header {
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1zJ1nOdqTTEi03On6Mt5P1ox_ZXyOHcIdZA&usqp=CAU');
-  background-blend-mode: overlay;
   background-size: cover;
-  background-position: center;
   color: #fff;
   padding: 20px;
   height: 90vh;
+  
 }
 
-.titulo{
-align-items: end;
-}
 
-header h1{
+#headerTitulo{
+  margin-top: 1%;
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
   text-align: center;
   font-size: 70px;
-  margin: 10px;
+
 }
 
- header h2 {
+ #headerSubTitulo{
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
   text-align: center;
   font-size:30px;
 }
-
 
 
 
