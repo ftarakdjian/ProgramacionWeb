@@ -121,119 +121,116 @@ width: 300px;
 align-items: center;
 }
 
-footer {
-  background-color: #f2f2f2;
-  padding: 20px;
-  height: 70vw;
-  margin-left: auto;
-  margin-right: auto;
-  justify-items: center;
-}
 
-#titulofooter {
-  color: #333;
-  font-size: 50px;
-  font-family: 'Josefin Sans', sans-serif;
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
   text-align: center;
 }
 
+#titulofooter {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.divBotones {
+  margin-bottom: 30px;
+}
+
 h1 {
-  color: #666;
-  font-size: 26px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
 .botonesfooter {
-  display: block;
-  text-decoration: none;
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  width: 90vw;
+  display: inline-block;
+  margin-right: 10px;
   margin-bottom: 10px;
-  margin-left: 30px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
   text-align: center;
-}
-
-#tituloContacto{
-  text-align: left;
-}
-.divBotones{
-  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .textobotonesfooter {
+  background-color: transparent;
   border: none;
-  font-size: 22px;
-  color: #fff;
-  background-color: #333;
-  padding: 5px 10px;
+  color: white;
   cursor: pointer;
+  font-size: 16px;
+}
+
+.textobotonesfooter:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 form {
-  max-width: 100vw;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f2f2f2;
+  margin-bottom: 30px;
 }
 
 #h1Form {
-  font-size: 24px;
-  text-align: left;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .pregunta {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 label {
   display: block;
-  font-weight: bold;
+  font-size: 16px;
   margin-bottom: 5px;
 }
 
 input[type="text"],
 textarea {
-  width: 100%;
+  width: 90%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  font-size: 16px;
 }
 
 input[type="submit"] {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
+  background-color: #4CAF50;
   border: none;
-  border-radius: 4px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
-  background-color: #555;
+.contacto {
+  margin-bottom: 20px;
 }
 
-
-.contacto {
-  margin-top: 20px;
-  text-align: center;
+#tituloContacto {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .datos {
-  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.fa-envelope {
-  margin-right: 5px;
+.fas.fa-envelope {
+  margin-right: 10px;
 }
 
-.mail{
-  font-size: 25px;
+.mail {
+  text-decoration: none;
+  font-size: 16px;
+  color: #4CAF50;
+  margin-right: 10px;
 }
+
 
 
 
@@ -282,9 +279,6 @@ input[type="submit"]:hover {
   }
   
   
-  
-  
-  
   .subtitulosmain{ 
     color: darkviolet; 
     text-align: center;
@@ -308,118 +302,6 @@ input[type="submit"]:hover {
   align-items: center;
   }
   
-  footer {
-    background-color: #f2f2f2;
-    padding: 20px;
-    height: 70vw;
-    margin-left: auto;
-    margin-right: auto;
-    justify-items: center;
-  }
-  
-  #titulofooter {
-    color: #333;
-    font-size: 50px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-  }
-  
-  h1 {
-    color: #666;
-    font-size: 26px;
-    margin-bottom: 10px;
-  }
-  
-  .botonesfooter {
-    display: block;
-    text-decoration: none;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    width: 90vw;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    text-align: center;
-  }
-  
-  #tituloContacto{
-    text-align: left;
-  }
-  .divBotones{
-    align-items: center;
-  }
-  
-  .textobotonesfooter {
-    border: none;
-    font-size: 22px;
-    color: #fff;
-    background-color: #333;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  form {
-    max-width: 100vw;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f2f2f2;
-  }
-  
-  #h1Form {
-    font-size: 24px;
-    text-align: left;
-    margin-bottom: 20px;
-  }
-  
-  .pregunta {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  input[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #555;
-  }
-  
-  
-  .contacto {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .datos {
-    margin-top: 10px;
-  }
-  
-  .fa-envelope {
-    margin-right: 5px;
-  }
-  
-  .mail{
-    font-size: 25px;
-  }
+
 }
 
