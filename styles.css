@@ -9,9 +9,9 @@ body {
 
 /* Estilos del encabezado */
 header {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1zJ1nOdqTTEi03On6Mt5P1ox_ZXyOHcIdZA&usqp=CAU');
+  background-image: url('https://imagenes.elpais.com/resizer/_0HPLGT93sytMI_jhDC13RsOKQE=/1960x1470/filters:focal(1735x1892:1745x1902)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/TAHXZR7YKNCZZMIU6ZG22LM3OU');
   background-size: cover;
-  color: #fff;
+  background-repeat: no-repeat;
   padding: 20px;
   height: 90vh;
   width: 100%;
