@@ -274,34 +274,14 @@ input[type="submit"] {
     }
   
     .fotosmain {
-      width: 100%;
+      width: 90%;
+      height: auto;
     }
   }
   
-  
-  .subtitulosmain{ 
-    color: darkviolet; 
-    text-align: center;
-    font-size: 30px;
-  }
-  
-  .textomain{ 
-    color: darkviolet; 
-    text-align: center;
-    font-size: 15px;
-  }
-  .titulosmain{ 
-    color: darkviolet; 
-    text-align: center;
-    font-size: 45px;
-  }
-  
-  .fotosmain{ 
-  height: 250px;
-  width: 300px;
-  align-items: center;
+
   }
   
 
-}
+
 
