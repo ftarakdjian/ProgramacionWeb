@@ -1,4 +1,4 @@
-  // Pregunta 1
+// Pregunta 1
 var respuesta1 = prompt("1. ¿Cuántos Grand Slam ha ganado Federer?");
 if (respuesta1 === "20") {
     console.log("¡Correcto!");
@@ -29,4 +29,3 @@ if (respuesta4.toLowerCase() === "rafael nadal") {
 } else {
     console.log("Incorrecto. La respuesta correcta es Rafael Nadal.");
 }
-
