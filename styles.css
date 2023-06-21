@@ -1,4 +1,4 @@
-*{border: 1px solid red}
+/*{border: 1px solid red}
 
 /* Estilos generales */
 body {
@@ -25,6 +25,7 @@ header {
   color: #fff;
   text-align: center;
   font-size: 70px;
+  
 
 }
 
@@ -54,48 +55,60 @@ header {
 
 .records { 
   grid-area: records;
+  border: 1px solid black;
 }
 
 .Torneos { grid-area: Torneos;
   display: grid; /* Activa el contexto de CSS Grid */
-  justify-items: center; /* Centra los elementos horizontalmente */ }
+  justify-items: center; /* Centra los elementos horizontalmente */ 
+  border: 1px solid black;}
 
 .Grandslam { grid-area: Grandslam; 
   display: grid; /* Activa el contexto de CSS Grid */
-  justify-items: center; /* Centra los elementos horizontalmente */}
+  justify-items: center; /* Centra los elementos horizontalmente */
+  border: 1px solid black;}
 
 .numero1 { grid-area: numero1; 
   display: grid; /* Activa el contexto de CSS Grid */
-  justify-items: center; /* Centra los elementos horizontalmente */}
+  justify-items: center; /* Centra los elementos horizontalmente */
+  border: 1px solid black;}
 
-.Estilo-de-juego { grid-area: Estilo-de-juego; }
+.Estilo-de-juego { grid-area: Estilo-de-juego;
+  border: 1px solid black; }
 
 .Derecha { grid-area: Derecha; 
   display: grid; /* Activa el contexto de CSS Grid */
   justify-items: center; /* Centra los elementos horizontalmente */
+  border: 1px solid black;
 }
 
 .Saque { grid-area: Saque;
   display: grid; /* Activa el contexto de CSS Grid */
-  justify-items: center; /* Centra los elementos horizontalmente */ }
+  justify-items: center; /* Centra los elementos horizontalmente */
+  border: 1px solid black; }
 
 .Reves { grid-area: Reves; 
   display: grid; /* Activa el contexto de CSS Grid */
-  justify-items: center; /* Centra los elementos horizontalmente */}
+  justify-items: center; /* Centra los elementos horizontalmente */
+  border: 1px solid black;}
 
-.Influencia { grid-area: Influencia; }
+.Influencia { grid-area: Influencia; 
+  border: 1px solid black;}
 
 .mentalidad { grid-area: mentalidad;
   display: grid; /* Activa el contexto de CSS Grid */
-  justify-items: center; /* Centra los elementos horizontalmente */ }
+  justify-items: center; /* Centra los elementos horizontalmente */ 
+  border: 1px solid black;}
 
 .Ayudas { grid-area: Ayudas; 
   display: grid; /* Activa el contexto de CSS Grid */
-  justify-items: center; /* Centra los elementos horizontalmente */}
+  justify-items: center; /* Centra los elementos horizontalmente */
+  border: 1px solid black;}
 
 .longevidad { grid-area: longevidad; 
   display: grid; /* Activa el contexto de CSS Grid */
-  justify-items: center; /* Centra los elementos horizontalmente */}
+  justify-items: center; /* Centra los elementos horizontalmente */
+  border: 1px solid black;}
 
 
 .subtitulosmain{ 
