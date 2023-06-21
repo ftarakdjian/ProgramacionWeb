@@ -1,10 +1,6 @@
 /*{border: 1px solid red}
 
-/* Estilos generales */
-body {
-  margin: 0;
-  padding: 0;
-}
+
 
 
 /* Estilos del encabezado */
@@ -265,6 +261,9 @@ input[type="submit"] {
   header {
     height: auto;
     background-position: center;
+    background-size:100%;
+    background-repeat: no-repeat;
+ 
   }
 
   #headerTitulo {
@@ -277,7 +276,7 @@ input[type="submit"] {
     width: 90%
   }
   
-  @media (max-width: 768px) {
+
     .container {
       grid-template-columns: 1fr;
       grid-template-rows: auto;
@@ -296,6 +295,12 @@ input[type="submit"] {
         "longevidad";
     }
   
+    .container { 
+      grid-area: records;
+      width: 100%;
+    }
+
+
     .fotosmain {
       width: 90%;
       height: auto;
@@ -303,7 +308,7 @@ input[type="submit"] {
   }
   
 
-  }
+  
   
 
 
