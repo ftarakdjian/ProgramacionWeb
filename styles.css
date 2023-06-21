@@ -228,7 +228,20 @@ input[type="submit"] {
   margin-right: 10px;
 }
 
+.quiz-link {
+  display: inline-block;
+  padding: 10px;
+  background-color: #eaf2f8;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
 
+.quiz-link:hover {
+  background-color: #b0d4f1;
+}
 
 
 /*--------------------tamaño celular----------------------------------------------*/

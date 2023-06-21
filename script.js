@@ -1,50 +1,48 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Obtener el enlace del cuestionario
     var startQuizLink = document.getElementById("startQuizLink");
-  
-    // Agregar un evento de clic al enlace
+    var quizContainer = document.getElementById("quizContainer");
     startQuizLink.addEventListener("click", function(e) {
-      e.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
-  
-      // Llamar a la función para comenzar el cuestionario
+      e.preventDefault();
       startQuiz();
     });
   
-    // Función para iniciar el cuestionario
     function startQuiz() {
-      // Pregunta 1
-  var respuesta1 = prompt("1. ¿Cuántos Grand Slam ha ganado Federer?");
-  if (respuesta1 === "20") {
-      console.log("¡Correcto!");
-  } else {
-      console.log("Incorrecto. La respuesta correcta es 20.");
-  }
+      var questions = [
+        {
+          question: "1. ¿Cuántos Grand Slam ha ganado Federer?",
+          answer: "20"
+        },
+        {
+          question: "2. ¿Cuál es el torneo que Federer ha ganado más veces?",
+          answer: "Wimbledon"
+        },
+        {
+          question: "3. ¿Cuál es el torneo que más le ha costado ganar a Federer?",
+          answer: "Roland Garros"
+        },
+        {
+          question: "4. ¿Quién ha sido el rival más difícil de Federer?",
+          answer: "Rafael Nadal"
+        }
+      ];
   
-  // Pregunta 2
-  var respuesta2 = prompt("2. ¿Cuál es el torneo que Federer ha ganado más veces?");
-  if (respuesta2.toLowerCase() === "wimbledon") {
-      console.log("¡Correcto!");
-  } else {
-      console.log("Incorrecto. La respuesta correcta es Wimbledon.");
-  }
+      var quizHTML = "";
+      for (var i = 0; i < questions.length; i++) {
+        var respuesta = prompt(questions[i].question);
+        var esCorrecta = false;
+        if (respuesta !== null && respuesta.toLowerCase() === questions[i].answer.toLowerCase()) {
+          esCorrecta = true;
+        }
   
-  // Pregunta 3
-  var respuesta3 = prompt("3. ¿Cuál es el torneo que más le ha costado ganar a Federer?");
-  if (respuesta3.toLowerCase() === "roland garros") {
-      console.log("¡Correcto!");
-  } else {
-      console.log("Incorrecto. La respuesta correcta es Roland Garros.");
-  }
+        quizHTML += "<p>Pregunta: " + questions[i].question + "</p>";
+        quizHTML += "<p>Tu respuesta: " + respuesta + "</p>";
+        quizHTML += "<p>Respuesta correcta: " + questions[i].answer + "</p>";
+        quizHTML += "<p>¿Es correcta? " + (esCorrecta ? "Sí" : "No") + "</p>";
+        quizHTML += "<hr>";
+      }
   
-  // Pregunta 4
-  var respuesta4 = prompt("4. ¿Quién ha sido el rival más difícil de Federer?");
-  if (respuesta4.toLowerCase() === "rafael nadal") {
-      console.log("¡Correcto!");
-  } else {
-      console.log("Incorrecto. La respuesta correcta es Rafael Nadal.");
-  }
-  
-      // Por ejemplo, puedes mostrar la primera pregunta
-      showQuestion();
+      quizContainer.innerHTML = quizHTML;
     }
   });
+  
+  
