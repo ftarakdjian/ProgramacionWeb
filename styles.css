@@ -17,7 +17,7 @@ header {
 
 #headerTitulo{
   margin-top: 1%;
-  font-family: 'Josefin Sans', sans-serif;
+  Font-family: "Bebas Neue", cursive;
   color: #fff;
   text-align: center;
   font-size: 70px;
@@ -26,7 +26,7 @@ header {
 }
 
  #headerSubTitulo{
-  font-family: 'Josefin Sans', sans-serif;
+  Font-family: "Bebas Neue", cursive;
   color: #fff;
   text-align: center;
   font-size:30px;
@@ -108,6 +108,7 @@ header {
 
 
 .subtitulosmain{ 
+  font-family: 'Josefin Sans', sans-serif;
   color: #000080; 
   text-align: center;
   font-size: 30px;
@@ -115,10 +116,12 @@ header {
 
 .textomain{ 
   color: #000080; 
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 15px;
 }
 .titulosmain{ 
+  font-family: 'Josefin Sans', sans-serif;
   color: #000080; 
   text-align: center;
   font-size: 45px;
@@ -132,6 +135,7 @@ align-items: center;
 
 
 footer {
+  font-family: 'Josefin Sans', sans-serif;
   background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
